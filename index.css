@@ -8,6 +8,11 @@ body, html, .row {
   background-color: red;
 }
 
+#logo {
+  padding: 1.5% 0 0 8%;
+
+}
+
 #blogTitle {
   display: inline-block;
   background-color: pink;
@@ -18,10 +23,15 @@ body, html, .row {
   text-align: right;
   float:right;
   list-style: none;
+  padding-right: 8%;
   background-color: orange;
 
 }
 
 #topNav > li {
   padding: 20px;
+}
+
+.titleSection {
+  text-align: center;
 }
