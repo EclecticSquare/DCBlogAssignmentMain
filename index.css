@@ -1,12 +1,27 @@
-body, html {
+body, html, .row {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 .pageTop {
   background-color: red;
 }
 
-h1 {
+#blogTitle {
+  display: inline-block;
   background-color: pink;
+}
+
+#topNav {
+  display: inline-flex;
+  text-align: right;
+  float:right;
+  list-style: none;
+  background-color: orange;
+
+}
+
+#topNav > li {
+  padding: 20px;
 }
