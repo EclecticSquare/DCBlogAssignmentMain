@@ -35,3 +35,18 @@ body, html, .row {
 .titleSection {
   text-align: center;
 }
+
+.pageBodyText {
+  display: block;
+  width: 35%;
+  margin: auto;
+  background-color: green;
+}
+
+#bottomNav {
+  display: inline-flex;
+  float:right;
+  list-style: none;
+  background-color: orange;
+
+}
